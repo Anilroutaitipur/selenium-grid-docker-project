@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+
+        <!-- Report Title & Name -->
+        <reportName>Selenium Automation Report</reportName>
+        <documentTitle>Automation Test Report</documentTitle>
+
+        <!-- Theme: standard or dark -->
+        <theme>dark</theme>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Chart visibility -->
+        <protocol>HTTPS</protocol>
+        <timelineEnabled>true</timelineEnabled>
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+
+        <!-- Custom CSS (optional) -->
+        <css>.badge-primary { background-color: #1e90ff; }</css>
+
+        <!-- Custom JS (optional) -->
+        <js>console.log("Extent Report Loaded");</js>
+
+    </configuration>
+</extentreports>
+
